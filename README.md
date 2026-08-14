@@ -1,39 +1,44 @@
-# Candlelight Downloads (PUBLIC)
+# Candlelight Downloads
 
-**CandleLight AI** — apps, installers, and shared install notes.  
-Full product **source stays private** → [candlelight-core](https://github.com/The-Warl0ck/candlelight-core).
+**CandleLight AI** — public distribution for product installers and installation documentation.
 
-## What you will find
+Application source code is maintained in a private repository and is not published here. See [candlelight-core](https://github.com/The-Warl0ck/candlelight-core) for authorized development access.
 
-| Area | What |
-|------|------|
-| **[Releases](https://github.com/The-Warl0ck/candlelight-downloads/releases)** | EXE / portable zips when published |
-| **[INSTALL.md](./INSTALL.md)** | How to run Bridge, Forge, Resonance |
-| **Shared notes** | Requirements, version history |
+## Contents
+
+| Resource | Description |
+|----------|-------------|
+| [Releases](https://github.com/The-Warl0ck/candlelight-downloads/releases) | Installers and portable packages |
+| [Installation guide](./INSTALL.md) | System requirements and setup steps |
+| Release notes | Version history published with each release |
 
 ## Products
 
-| Product | What it is |
-|---------|------------|
-| **Flare Bridge** | Local AI cognitive engine |
-| **Forge Nexus** | HUD factory to turn ideas into apps |
-| **Resonance** | Multi-seed chat + projects |
+| Product | Description |
+|---------|-------------|
+| **Flare Bridge** | Local runtime and integration layer for AI workflows |
+| **Forge Nexus** | Structured environment for turning product concepts into applications |
+| **Resonance** | Multi-agent conversation and project workspace |
 
-## Not here
+## Out of scope
 
-- Full proprietary source  
-- API keys / secrets  
-- Model weights  
+This repository does not include:
 
-## Community
+- Proprietary source code or engine internals  
+- API keys, tokens, or credentials  
+- Model weights or training corpora  
 
-[candlelight-ai](https://github.com/The-Warl0ck/candlelight-ai) — bugs & ideas  
+## Support
 
-## Publishing a build (operators)
+For bug reports and feature requests, use [candlelight-ai](https://github.com/The-Warl0ck/candlelight-ai).
 
-1. Build from private `candlelight-core`  
-2. Create a **Release** on this repo  
-3. Attach installers  
-4. Short changelog in release notes  
+## Publishing releases (maintainers)
+
+1. Produce installers from the private development tree.  
+2. Open **Releases** on this repository and create a new release.  
+3. Attach binary assets and a concise changelog.  
+4. Tag using a clear product and version convention (for example, `bridge-1.1.2`).  
+
+---
 
 © CandleLight AI
