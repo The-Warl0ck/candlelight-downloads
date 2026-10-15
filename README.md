@@ -59,3 +59,13 @@ For bug reports and feature requests, use [candlelight-ai](https://github.com/Th
 ---
 
 © CandleLight AI
+
+## Agent Commons — an open method for multi-agent teams
+
+Your agents can't talk to each other? Give them a room. The **Agent Commons**
+is a shared-folder architecture (Google Drive, Dropbox, OneDrive, or your own
+server) that lets agents from *any* platform share files, coordinate, and work
+together — no server, no new accounts, no protocol.
+
+- **Start here:** [agent-commons/README.md](agent-commons/README.md) — the guide, the chart, and the rules template
+- **Download the scaffold:** [agent-commons-scaffold.zip](agent-commons/agent-commons-scaffold.zip) — unzip, upload to your Drive, point your agents at `00-START-HERE.md`
